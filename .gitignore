@@ -56,6 +56,4 @@ gradle-app.setting
 ### Gradle Patch ###
 **/build/
 
-# Reports
-src/test/resources/reports/**.html
-src/test/resources/screenshots/**.png
+.settings/
