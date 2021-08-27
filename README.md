@@ -1,5 +1,6 @@
 ![Java](https://img.shields.io/badge/java-007396.svg?style=for-the-badge&logo=java&logoColor=white)
 ![Karate](https://img.shields.io/badge/Karate-302E31.svg?style=for-the-badge)
+![Cucumber](https://img.shields.io/badge/Cucumber-%2323D96C.svg?style=for-the-badge&logo=Cucumber&logoColor=white)
 ![JUnit5](https://img.shields.io/badge/JUnit5-%2325A162.svg?style=for-the-badge&logo=JUnit5&logoColor=white)
 ![Gradle](https://img.shields.io/badge/Gradle-0f303b.svg?style=for-the-badge&logo=Gradle&logoColor=white)
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
@@ -13,28 +14,25 @@ Behavior driven development (BDD) approach to write automation test scripts to t
 
 ## Project Architecture
 
-The project architecture uses the standard Cucumbers structure.
+The project architecture uses the [Karate Conventions](https://github.com/intuit/karate#naming-conventions).
 
 ```shell
-JavaMobileTesting
+KarateTesting/
 ├── src
 │   ├── test
 │       ├── java/com/example/testautomation
-│           ├── features
-│           ├── pages
-│           ├── steps
-│           ├── support
-│           ├── utils
-│       ├── resources
-│           ├── app
-│           ├── configs
-│           ├── reports
-│           ├── screenshots
+│           ├── weather
+│           ├── Runner.java
+│       ├── build
+│           ├── karate-reports
 ```
 
 ## Built With
 
 - [Karate](https://github.com/intuit/karate)
+- [JUnit5](https://junit.org/junit5/)
+- [Cucumber](https://cucumber.io/docs/guides/api-automation/)
+
 
 ## Design Patterns
 
